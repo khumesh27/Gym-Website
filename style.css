@@ -1,0 +1,10 @@
+.review{
+    background-color: black;
+    color: aliceblue;
+}
+.left{
+    display: flex;
+}
+.right{
+    display: flex;
+}

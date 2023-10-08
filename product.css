@@ -1,0 +1,234 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+
+body{
+     /* background-image: url("bg.jpg"); */
+    /* background-size: 100%;   */
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: rgb(28, 7, 7);
+    font-family: 'Mulish',sans-serif;
+}
+nav {
+    background-color: black;
+    height: 100px;
+}
+nav img{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    border: 10px solid gold;
+    border-radius: 300px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 1%;
+    height: 150px;
+}
+nav h1{
+    font-size: 40px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+nav ul a{
+    color: aliceblue;
+    text-decoration: none;
+    padding-right: 0px;
+    padding-top: 10px;
+    font-size: 20px; */
+ } 
+/* nav h1:hover{
+    border-radius: 3px;
+    margin-top: 2px; 
+    font-size: 60px;
+
+} */
+ul button{
+    width: 100px;
+    height: 55px;
+    background-color: rgba(202, 12, 12, 0.677);
+    color: white;
+    font-size: 25px;
+    border: none;
+    border-radius:50px;
+    margin-top: 10px;
+    margin-left: 30px;
+    /* padding:  5px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+ul button a{
+    width: 80px;
+    height: 55px;
+    /* background-color: rgb(202, 12, 12); */
+    color: white;
+    font-size: 25px;
+    border: none;
+    border-radius:50px;
+    margin-top: 40px;
+    /* margin-left: 30px; */
+    /* padding:  5px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+  ul button:hover{ 
+    border: 1px solid whitesmoke;
+    background-color: rgb(77, 112, 7);
+    cursor: pointer;
+    font-size:25px;
+ } 
+
+ul{
+    display: flex;
+    color: rgb(90, 151, 203);
+    list-style: none;
+    margin-top: 30px ;
+}
+ul li{
+    margin-top: 22px;
+}
+ul li a{
+    margin-inline: 30px;
+    font-size: 25px;
+    /* font-color:white; */
+    color: rgb(97, 204, 204);
+    /* border: 2px solid rgb(231, 27, 27); */
+    background-color: black;
+    /* border-radius: 10px; */
+    text-decoration: none;
+    padding:5px 5px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul li a:hover{
+    
+    cursor: pointer;
+    color: rgba(31, 113, 189, 0.516);
+    font-size: 26px;
+
+}
+
+
+/* Reset some default styles */
+body, h1, h2,h3,h5,h4, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  h2{
+    font-size: 40px;
+    align-content: center;
+    margin-left: 0px;
+  }
+  h3{
+    font-size: 40px;
+    align-content: center;
+    margin-left: 100px;
+
+  }
+  h5{
+    font-size: 40px;
+    align-content: center;
+    margin-left: 800px;
+
+  }
+  h4{
+    font-size: 40px;
+    align-content: center;
+    margin-left: px;
+
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #799bf17d;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin-top: 10px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    margin: 20px auto;
+    text-align: center;
+  }
+  main h2{ 
+    font-size: 40px;
+  } 
+  
+  .product {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  
+  .product h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .product p {
+    margin-bottom: 10px;
+  }
+  
+  .product button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .product button:hover {
+    background-color: #58c2e2;
+    color: #03310b;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+
